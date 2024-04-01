@@ -1,13 +1,31 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+.rubik-scribble-regular {
+    font-family: "Rubik Scribble", system-ui;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 80px;
+  }
+  .inputbar{
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid blue;
+    color: gray;
+    margin: 10px;
+    padding: 10px;
+    width: min-content;
+    box-shadow: 1px 2px 5px blue;
+    font-size: 30px;
+  }
+  .inputbar:focus{
+   outline: none;
+  }
+
+  .btn{
+   width: 80px;
+  }
+
+  .btn:hover{
+   filter:drop-shadow(0px 0px 5px blue) ;
+  }
