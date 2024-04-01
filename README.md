@@ -1,4 +1,6 @@
 # Getting Started with Create React App
+![alt text](Todo.bmp)
+![alt text](Todo-completed.bmp)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
